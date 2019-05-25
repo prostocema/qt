@@ -1,0 +1,15 @@
+{
+	"log": "cema", "pass": "admin", "whoami": "admin";
+}
+{
+	"log": "mark", "pass": "bog", "whoami": "admin";
+}
+{
+	"log": "dimon", "pass": "manag", "whoami": "admin";
+}
+{
+	"log": "romka", "pass": "romka", "whoami": "user";
+}
+{
+	"log": "test", "pass": "test", "whoami": "admin";
+}
