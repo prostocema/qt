@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>821</width>
-    <height>472</height>
+    <width>1080</width>
+    <height>506</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -16,20 +16,20 @@
   <widget class="QTableView" name="tableView">
    <property name="geometry">
     <rect>
-     <x>20</x>
+     <x>10</x>
      <y>10</y>
-     <width>531</width>
-     <height>291</height>
+     <width>781</width>
+     <height>301</height>
     </rect>
    </property>
   </widget>
-  <widget class="QFrame" name="frame">
+  <widget class="QFrame" name="frame_3">
    <property name="geometry">
     <rect>
-     <x>560</x>
+     <x>810</x>
      <y>10</y>
-     <width>251</width>
-     <height>241</height>
+     <width>261</width>
+     <height>270</height>
     </rect>
    </property>
    <property name="frameShape">
@@ -38,336 +38,97 @@
    <property name="frameShadow">
     <enum>QFrame::Raised</enum>
    </property>
-   <widget class="QLabel" name="label">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>50</y>
-      <width>55</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>fio</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_2">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>100</y>
-      <width>55</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>tel</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_3">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>150</y>
-      <width>55</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>data</string>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="line_fio">
-    <property name="geometry">
-     <rect>
-      <x>20</x>
-      <y>70</y>
-      <width>113</width>
-      <height>24</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="line_tel">
-    <property name="geometry">
-     <rect>
-      <x>20</x>
-      <y>120</y>
-      <width>113</width>
-      <height>24</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="add">
-    <property name="geometry">
-     <rect>
-      <x>40</x>
-      <y>210</y>
-      <width>80</width>
-      <height>25</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Добавить</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_3">
-    <property name="geometry">
-     <rect>
-      <x>140</x>
-      <y>210</y>
-      <width>80</width>
-      <height>25</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Изменить</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_4">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>0</y>
-      <width>55</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>id</string>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="line_id">
-    <property name="geometry">
-     <rect>
-      <x>20</x>
-      <y>20</y>
-      <width>113</width>
-      <height>24</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QDateEdit" name="dateEdit">
-    <property name="geometry">
-     <rect>
-      <x>20</x>
-      <y>170</y>
-      <width>110</width>
-      <height>25</height>
-     </rect>
-    </property>
-   </widget>
-  </widget>
-  <widget class="QFrame" name="frame_2">
-   <property name="geometry">
-    <rect>
-     <x>20</x>
-     <y>310</y>
-     <width>351</width>
-     <height>151</height>
-    </rect>
-   </property>
-   <property name="frameShape">
-    <enum>QFrame::StyledPanel</enum>
-   </property>
-   <property name="frameShadow">
-    <enum>QFrame::Raised</enum>
-   </property>
-   <layout class="QGridLayout" name="gridLayout">
+   <layout class="QGridLayout" name="gridLayout_3">
     <item row="0" column="0" colspan="2">
-     <widget class="QPushButton" name="pushButton">
+     <widget class="QPushButton" name="pokazlp">
       <property name="text">
-       <string>Выгрузить</string>
+       <string>Показать л/п</string>
       </property>
      </widget>
     </item>
     <item row="1" column="0" colspan="2">
-     <widget class="QLineEdit" name="line_find">
-      <property name="accessibleDescription">
-       <string/>
-      </property>
+     <widget class="QPushButton" name="addus">
       <property name="text">
-       <string/>
-      </property>
-      <property name="placeholderText">
-       <string>Введите искомый id</string>
+       <string>Добавить юзера</string>
       </property>
      </widget>
     </item>
-    <item row="2" column="0">
-     <widget class="QPushButton" name="find">
+    <item row="2" column="0" colspan="2">
+     <widget class="QPushButton" name="deletelp">
       <property name="text">
-       <string>Найти</string>
+       <string>Удалить юзера</string>
       </property>
      </widget>
     </item>
-    <item row="2" column="1">
-     <widget class="QPushButton" name="delete_2">
+    <item row="3" column="0" colspan="2">
+     <widget class="QPushButton" name="findlp">
       <property name="text">
-       <string>Удалить</string>
+       <string>Найти юзера</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="label_5">
+      <property name="text">
+       <string>Логин</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QLineEdit" name="logEdit"/>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="label_6">
+      <property name="text">
+       <string>Пароль</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QLineEdit" name="passEdit"/>
+    </item>
+    <item row="6" column="0">
+     <widget class="QLabel" name="label_7">
+      <property name="text">
+       <string>Статус</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="1">
+     <widget class="QComboBox" name="list">
+      <item>
+       <property name="text">
+        <string>admin</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>manag</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>user</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="7" column="0" colspan="2">
+     <widget class="QPushButton" name="changqau">
+      <property name="text">
+       <string>Сменить привилегии</string>
       </property>
      </widget>
     </item>
    </layout>
   </widget>
-  <widget class="QFrame" name="frame_3">
-   <property name="geometry">
-    <rect>
-     <x>560</x>
-     <y>250</y>
-     <width>251</width>
-     <height>221</height>
-    </rect>
-   </property>
-   <property name="frameShape">
-    <enum>QFrame::StyledPanel</enum>
-   </property>
-   <property name="frameShadow">
-    <enum>QFrame::Raised</enum>
-   </property>
-   <widget class="QPushButton" name="pokazlp">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>10</y>
-      <width>231</width>
-      <height>25</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Показать л/п</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="addus">
-    <property name="geometry">
-     <rect>
-      <x>9</x>
-      <y>40</y>
-      <width>231</width>
-      <height>25</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Добавить юзера</string>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="logEdit">
-    <property name="geometry">
-     <rect>
-      <x>100</x>
-      <y>100</y>
-      <width>111</width>
-      <height>24</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="passEdit">
-    <property name="geometry">
-     <rect>
-      <x>100</x>
-      <y>130</y>
-      <width>113</width>
-      <height>24</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_5">
-    <property name="geometry">
-     <rect>
-      <x>50</x>
-      <y>100</y>
-      <width>55</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Логин</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_6">
-    <property name="geometry">
-     <rect>
-      <x>50</x>
-      <y>130</y>
-      <width>55</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Пароль</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_7">
-    <property name="geometry">
-     <rect>
-      <x>50</x>
-      <y>160</y>
-      <width>55</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Статус</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="deletelp">
-    <property name="geometry">
-     <rect>
-      <x>9</x>
-      <y>70</y>
-      <width>231</width>
-      <height>25</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Удалить юзера</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="changqau">
-    <property name="geometry">
-     <rect>
-      <x>49</x>
-      <y>190</y>
-      <width>161</width>
-      <height>25</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Сменить привилегии</string>
-    </property>
-   </widget>
-   <widget class="QComboBox" name="list">
-    <property name="geometry">
-     <rect>
-      <x>100</x>
-      <y>160</y>
-      <width>111</width>
-      <height>24</height>
-     </rect>
-    </property>
-    <item>
-     <property name="text">
-      <string>admin</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>manag</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>user</string>
-     </property>
-    </item>
-   </widget>
-  </widget>
   <widget class="QFrame" name="frame_4">
    <property name="geometry">
     <rect>
-     <x>380</x>
-     <y>310</y>
-     <width>171</width>
-     <height>151</height>
+     <x>810</x>
+     <y>290</y>
+     <width>261</width>
+     <height>201</height>
     </rect>
    </property>
    <property name="frameShape">
@@ -376,86 +137,53 @@
    <property name="frameShadow">
     <enum>QFrame::Raised</enum>
    </property>
-   <widget class="QPushButton" name="changepass">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>120</y>
-      <width>151</width>
-      <height>25</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Сменить пароль</string>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="passforchan">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>40</y>
-      <width>151</width>
-      <height>24</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="repeatpass">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>90</y>
-      <width>151</width>
-      <height>24</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_10">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>20</y>
-      <width>55</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Пароль</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_11">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>70</y>
-      <width>111</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Повторите пароль</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_12">
-    <property name="geometry">
-     <rect>
-      <x>80</x>
-      <y>0</y>
-      <width>91</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Смена пароля</string>
-    </property>
-   </widget>
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="5" column="0">
+     <widget class="QLineEdit" name="passforchan"/>
+    </item>
+    <item row="6" column="0" colspan="2">
+     <widget class="QLabel" name="label_11">
+      <property name="text">
+       <string>Повторите пароль</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="label_12">
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="text">
+       <string>Смена пароля</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="0" colspan="2">
+     <widget class="QLineEdit" name="repeatpass"/>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="label_10">
+      <property name="text">
+       <string>Пароль</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="0" colspan="2">
+     <widget class="QPushButton" name="changepass">
+      <property name="text">
+       <string>Сменить пароль</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
   </widget>
   <widget class="QFrame" name="frame_5">
    <property name="geometry">
     <rect>
-     <x>220</x>
-     <y>90</y>
-     <width>351</width>
-     <height>211</height>
+     <x>340</x>
+     <y>160</y>
+     <width>401</width>
+     <height>221</height>
     </rect>
    </property>
    <property name="styleSheet">
@@ -529,6 +257,139 @@
      <enum>QLineEdit::Password</enum>
     </property>
    </widget>
+  </widget>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>330</y>
+     <width>781</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="3" column="5">
+     <widget class="QLineEdit" name="phprovider"/>
+    </item>
+    <item row="0" column="6">
+     <widget class="QLabel" name="label_18">
+      <property name="text">
+       <string>Дата поставки</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="5">
+     <widget class="QLabel" name="label_16">
+      <property name="text">
+       <string>Телефон поставщика</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>Название</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="1">
+     <widget class="QPushButton" name="deletebb">
+      <property name="text">
+       <string>Удалить</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="4">
+     <widget class="QLineEdit" name="provider"/>
+    </item>
+    <item row="0" column="2" colspan="2">
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>Металл</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0" rowspan="3" colspan="4">
+     <widget class="QPushButton" name="showbb">
+      <property name="text">
+       <string>Выгрузить</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="6">
+     <widget class="QDateEdit" name="dateEdit"/>
+    </item>
+    <item row="3" column="2" colspan="2">
+     <widget class="QLineEdit" name="metal"/>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLineEdit" name="name"/>
+    </item>
+    <item row="0" column="4">
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>Поставщик</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="5">
+     <widget class="QLineEdit" name="worker"/>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>Цена</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLineEdit" name="price"/>
+    </item>
+    <item row="7" column="0">
+     <widget class="QPushButton" name="addbb">
+      <property name="text">
+       <string>Добавить</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="5">
+     <widget class="QLabel" name="label_17">
+      <property name="text">
+       <string>Работник</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="4">
+     <widget class="QLabel" name="label_19">
+      <property name="text">
+       <string>Индекс поставки</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="4">
+     <widget class="QLineEdit" name="index"/>
+    </item>
+    <item row="7" column="4">
+     <widget class="QPushButton" name="findbb">
+      <property name="text">
+       <string>Найти</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="2" colspan="2">
+     <widget class="QPushButton" name="change">
+      <property name="text">
+       <string>Изменить</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
   </widget>
  </widget>
  <resources/>

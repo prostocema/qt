@@ -11,6 +11,11 @@ greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 TARGET = superrrproga
 TEMPLATE = app
+INCLUDEPATH += C:/OpenSSL-Win64/include
+LIBS += -LC:/OpenSSL-Win64/
+LIBS += -LC:/OpenSSL-Win64/lib -llibssl
+LIBS += -LC:/OpenSSL-Win64/lib -llibcrypto
+LIBS += -LC:/OpenSSL-Win64/lib -lopenssl
 
 # The following define makes your compiler emit warnings if you use
 # any feature of Qt which has been marked as deprecated (the exact warnings
